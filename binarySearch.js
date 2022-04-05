@@ -5,7 +5,7 @@ let search = function(nums, target) {
     let r = nums.length - 1;
     curIndex = Math.floor(l + (r - l)/2)
 
-     while (l < r) {
+     while (l <= r) {
         if (nums[curIndex] === target) {
             result = curIndex;
             break;
